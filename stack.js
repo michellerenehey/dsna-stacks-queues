@@ -15,6 +15,11 @@ class Stack {
     return this.banana[this.length - 1];
   }
 
+  // also works:
+  // peek() {
+  //   return this.banana.at(-1)
+  // }
+
   get length() {
     return this.banana.length;
   }
