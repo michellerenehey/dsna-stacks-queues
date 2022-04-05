@@ -8,11 +8,15 @@ class Stack {
   }
 
   pop() {
-    return this.stack.pop();
+    return this.stack.pop() || null;
   }
 
   peek() {
     return this.stack[this.length - 1];
+  }
+
+  get length() {
+    return this.stack.length;
   }
 }
 
