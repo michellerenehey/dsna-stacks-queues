@@ -25,13 +25,12 @@ class LinkedListNode {
 
   // GET LIST METHOD
   getList() {
-    if (this.data.length === 1) {
+    // if no next, return the data value for this node
+    if (!this.next) {
       return this.data;
-    } else {
-      for (let i = 0; i < this.data.length; i++) {
-        return this.data[i];
-      }
     }
+    // return data value plus rest of the list
+    return `${this.data} ${this.next.getList()}`;
   }
 }
 
