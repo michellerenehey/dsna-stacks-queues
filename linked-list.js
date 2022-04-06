@@ -25,7 +25,8 @@ class LinkedListNode {
 
   // GET LIST METHOD
   getList() {
-    // if no next, return the data value for this node
+    // if there is no next (if it's at the end of the road)
+    // then return the data value for this node
     if (!this.next) {
       return this.data;
     }
