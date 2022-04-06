@@ -9,12 +9,15 @@ class BinaryTreeNode {
     // takes in a node
 
     // first try
+    // node is less than the value of this, and there's no left
+    // add to left
     // if (node < this.value && this.left === undefined) {
     //   this.left.add(node);
     // } else if (node < this.value) {
     //   this.left = new BinaryTreeNode(node);
     // }
-
+    // node is greater than value of this. and there's no right
+    // add to write
     // if (node > this.value && this.right === undefined) {
     //   this.right.add(node);
     // } else if (node > this.value) {
