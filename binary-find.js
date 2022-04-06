@@ -16,7 +16,15 @@ class PersonTreeNode {
     }
   }
 
-  findPerson(name) {
-    // Implement me!
-  }
+  // did not complete, leaving notes for review
+  //   findPerson(name) {
+  //     // find the right person
+  //     if (this.value === name) return this.person;
+
+  //     // decide left or right
+  //     const dir = node.value < this.value ? 'left' : 'right';
+  //     if (!this[dir]) return null;
+  //     // delegate left or right
+  //     return this[dir].findPerson(name);
+  //   }
 }
